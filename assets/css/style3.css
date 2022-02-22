@@ -8,4 +8,13 @@ body {
 
 .card {
     border: 5px solid black;
+    margin: 10px;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+img {
+    border: 3px solid blue;
 }
