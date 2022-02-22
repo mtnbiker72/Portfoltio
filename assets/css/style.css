@@ -8,15 +8,17 @@ body {
 /* Define grid area for page */
 .heading1 {
   grid-area: heading1;
-  font-size: 35px;
+  font-size: 50px;
   text-shadow: 2px 2px rgb(126, 3, 56);
   align-self: center;
+  text-align: center;
 }
 .navbar {
   grid-area: navbar;
   font-style: italic;
   align-self: center;
   justify-self: right;
+  margin-top: 15px;
 }
 .selfpic {
   grid-area: selfpic;
@@ -95,6 +97,9 @@ body {
   height: 100%;
   max-height: 500px;
 }
+p .small-text {
+  font-size: 20;
+}
 
 /* Define large image on center of page  */
 .big-img {
@@ -128,13 +133,13 @@ nav ul li {
 
 /* Changes the background when the user hovers over the about, contact, or work section  */
 .about:hover {
-  background-color: rgba(9, 9, 201, 0.4);
+  background-color: rgba(132, 132, 134, 0.4);
 }
 .work:hover {
-  background-color: rgba(9, 9, 201, 0.4);
+  background-color: rgba(132, 132, 134, 0.4);
 }
 .contact:hover {
-  background-color: rgba(9, 9, 201, 0.4);
+  background-color: rgba(132, 132, 134, 0.4);
 }
 
 /* The following defines the contact info at the bottom of the page  */
